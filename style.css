@@ -1,0 +1,154 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.post:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.blog-container {
+  display: flex;
+}
+
+.blog-content {
+  flex: 3;
+  padding: 20px;
+}
+
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  background-color: #eee;
+}
+
+/* Code block styles */
+pre {
+  background-color: #b3f0bb;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+code {
+  display: block;
+  white-space: pre;
+}
+
+/* Post comments styles */
+.post-comments {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-comments li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Form input styles */
+form input[type="text"][placeholder="Your username"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form input[type="text"][placeholder="Your comment"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+button {
+  margin: 3px;
+  background-color: #010501;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3d533e;
+}
+
+/* Sidebar list styles */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.sidebar ul li::before {
+  content: "• ";
+  color: #333;
+}
+
+.sidebar ul li:hover {
+  color: #555;
+}
